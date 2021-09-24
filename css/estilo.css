@@ -1,0 +1,172 @@
+@import url ('https://fonts.googleapis.com/css2? family = Be + Vietnam + Pro & display = swap');
+
+
+*{	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+ background-color:#145e2c;
+
+}
+#main{ 	
+	width: 90%;
+		max-width: 1180px;
+		height: 720px;
+		background-color: #00983a;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+header { 
+	width:60%;
+	height:130px;
+	float: left;
+	background-color:#00983a;
+	
+}
+.logo{
+	margin-left: 20px;
+	
+}   
+
+
+section{
+	background-size: cover;
+		width:auto;
+		height:530px;
+	    clear: both;
+	    background-color:#2a5325;
+}
+
+
+.text2{
+	float: right;
+	width: 400px;
+	padding: 50px;
+	margin-top: 10pt;
+	margin-bottom: 80pt;
+	margin-left: 10pt;
+	margin-right: 10pt;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	font-weight: 200;
+	font-size: 13px;
+	color: #FFFFFF;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 2px solid #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	border-color:#FFFFFF;
+	border-radius: 20px;
+	background: #145e2c;
+	
+}
+.pdf{
+	width: 400%;
+	height: 180%;
+	float: right;
+	border-radius: 8px;
+	border-color: #ffffff;
+	margin-left: 100px;
+	margin-right: 200px;
+	align-content: center;
+	
+}
+
+.alinear {
+	float: left;
+	align-content: center;
+	padding-left: 5%;
+	padding-right: 15%;
+	width: 170px;
+	height: 50px;
+}
+
+ footer{width:100%;
+		height:80px;
+		background-color:#00983a;
+	}
+
+.nombre{
+			padding-left: 35px;
+		    color: white;
+		    text-decoration: none;
+		    font-size: 15px;
+		    font-family: 'Be Vietnam Pro', sans-serif;
+		    font-weight: 230;
+		    
+		 }
+
+
+/*RESPONSIVE */
+
+
+. /* Vista de celular*/
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+#triplecolumna{
+column-count: 1;
+padding-top: 40px;
+}
+#fotos-columna{
+column-count: 1;
+}
+header img{
+display: none;
+}			
+header h1{
+padding-top: 20px;
+}
+main{
+width: 100%;
+}
+
+/*celular/tablet */
+@media  (max-width: 991px){
+
+#triplecolumna{
+column-count: 1;
+padding-top: 40px;
+		}
+#fotos-columna{
+column-count: 1;
+		}
+header img{
+display: none;
+		}		
+header h1{
+padding-top: 20px;
+}
+main{
+width: 100%;
+}
+
+
+/*tablet */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#triplecolumna{
+column-count: 3;
+padding-top: 40px;
+}
+#fotos-columna{
+column-count: 2;
+}
+
+/*computadora */
+@media (min-width: 1200px) {
+#triplecolumna{
+column-count: 3;
+padding-top: 40px;
+}
+			
+#fotos-columna{
+column-count: 4;
+}
+			
+
+
+
